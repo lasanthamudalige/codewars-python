@@ -1,1 +1,1 @@
-# Code wars challenges from Python language
+# Codewar challenges from Python language
