@@ -14,9 +14,9 @@ Complete the function which returns the weekday according to the input number:
 
 # This function is to test the whatday function
 def main():
-    num =int(input("Enter a number from 1-7: "))
-    day = whatday(num)
-    print(day)
+    for num in range(1, 8):
+        day = whatday(num)
+        print(day)
 
 def whatday(num):
     if num == 1:
