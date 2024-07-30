@@ -39,12 +39,19 @@ If there is an error function doesn't reach the end. It will show an error if th
 '''
 def test_whatday():
     assert whatday(1) == "Sunday"
+    print("Test 1 passed.")
     assert whatday(2) == "Monday"
+    print("Test 2 passed.")
     assert whatday(3) == "Tuesday"
+    print("Test 3 passed.")
     assert whatday(4) == "Wednesday"
+    print("Test 4 passed.")
     assert whatday(5) == "Thursday"
+    print("Test 5 passed.")
     assert whatday(6) == "Friday"
+    print("Test 6 passed.")
     assert whatday(7) == "Saturday"
+    print("Test 7 passed.")
     print("All test passed.")
 
 main()
