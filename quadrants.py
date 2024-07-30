@@ -20,9 +20,6 @@ There are four quadrants:
     Fourth quadrant, the quadrant in the bottom-right, contains all points with positive X, but negative
 '''
 
-def main():
-    test_quadrant()
-
 def quadrant(x, y):
     if x > 0 and y > 0:
         return 1
@@ -53,4 +50,4 @@ def test_quadrant():
     print("Test 7 passed.")
     print("All test passed.")
 
-main()
+test_quadrant()
