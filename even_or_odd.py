@@ -21,6 +21,6 @@ def test_even_or_odd():
     print("Test 4 passed.")
     assert even_or_odd(0) == "Even"
     print("Test 5 passed.")
-    print("All test passed.")
+    print("All tests passed.")
 
 test_even_or_odd()

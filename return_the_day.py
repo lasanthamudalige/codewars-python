@@ -48,6 +48,6 @@ def test_whatday():
     print("Test 6 passed.")
     assert whatday(7) == "Saturday"
     print("Test 7 passed.")
-    print("All test passed.")
+    print("All tests passed.")
 
 test_whatday()

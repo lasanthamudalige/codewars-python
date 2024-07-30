@@ -48,6 +48,6 @@ def test_quadrant():
     print("Test 6 passed.")
     assert quadrant(-60, -12) == 3
     print("Test 7 passed.")
-    print("All test passed.")
+    print("All tests passed.")
 
 test_quadrant()
