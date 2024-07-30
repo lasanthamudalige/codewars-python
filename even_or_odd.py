@@ -10,6 +10,9 @@ def even_or_odd(number):
     else:
         return "Even"
 
+'''
+If there is an error function doesn't reach the end. It will throw an error if the tests don't match.
+'''
 def test_even_or_odd():
     assert even_or_odd(1) == "Odd"
     print("Test 1 passed.")
