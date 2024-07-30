@@ -32,8 +32,11 @@ def whatday(num):
     elif num == 7:
         return "Saturday"
     else:
-        return "Wrong, please enter a number between 1 and 7";
+        return "Wrong, please enter a number between 1 and 7"
 
+'''
+If there is an error function doesn't reach the end. It will show an error if the tests don't match.
+'''
 def test_whatday():
     assert whatday(1) == "Sunday"
     assert whatday(2) == "Monday"
@@ -43,4 +46,5 @@ def test_whatday():
     assert whatday(6) == "Friday"
     assert whatday(7) == "Saturday"
     print("All test passed.")
+
 main()
