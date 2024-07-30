@@ -21,12 +21,7 @@ There are four quadrants:
 '''
 
 def main():
-    examples = [[1, 2], [3, 5], [-10, 100], [-1, -9], [19, -56], [1, 1], [-60, -12]]
-    for axes in examples:
-        x = axes[0]
-        y = axes[1]
-        quadrant_num = quadrant(x, y)
-        print(quadrant_num)
+    test_quadrant()
 
 def quadrant(x, y):
     if x > 0 and y > 0:
@@ -37,5 +32,18 @@ def quadrant(x, y):
         return 3
     else:
         return 4
+
+'''
+If there is an error function doesn't reach the end. It will show an error if the tests don't match.
+'''
+def test_quadrant():
+    assert quadrant(1, 2) == 1 "Should be 1"
+    assert quadrant(3, 5) == 1
+    assert quadrant(-10, 100) == 2
+    assert quadrant(-1, -9) == 3
+    assert quadrant(19, -56) == 4
+    assert quadrant(1, 1) == 1
+    assert quadrant(-60, -12) == 3
+    print("All test passed.")
 
 main()

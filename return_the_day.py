@@ -14,9 +14,7 @@ Complete the function which returns the weekday according to the input number:
 
 # This function is to test the whatday function
 def main():
-    for num in range(1, 8):
-        day = whatday(num)
-        print(day)
+    test_whatday()
 
 def whatday(num):
     if num == 1:
@@ -36,4 +34,13 @@ def whatday(num):
     else:
         return "Wrong, please enter a number between 1 and 7";
 
+def test_whatday():
+    assert whatday(1) == "Sunday"
+    assert whatday(2) == "Monday"
+    assert whatday(3) == "Tuesday"
+    assert whatday(4) == "Wednesday"
+    assert whatday(5) == "Thursday"
+    assert whatday(6) == "Friday"
+    assert whatday(7) == "Saturday"
+    print("All test passed.")
 main()
