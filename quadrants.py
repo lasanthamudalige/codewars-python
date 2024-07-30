@@ -9,6 +9,8 @@ Examples:
 (-10, 100) => 2
 (-1, -9)   => 3
 (19, -56)  => 4
+(1, 1) => 1
+(-60, -12) => -12
 
 There are four quadrants:
 
@@ -19,12 +21,12 @@ There are four quadrants:
 '''
 
 def main():
-    examples = [[1, 2], [3, 5], [-10, -100], [-1, -9], [19, -56]]
+    examples = [[1, 2], [3, 5], [-10, 100], [-1, -9], [19, -56], [1, 1], [-60, -12]]
     for axes in examples:
         x = axes[0]
         y = axes[1]
-        print(x, y)
-        # quadrant(x, y)
+        quadrant_num = quadrant(x, y)
+        print(quadrant_num)
 
 def quadrant(x, y):
     if x > 0 and y > 0:
