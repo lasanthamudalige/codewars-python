@@ -5,11 +5,10 @@ Make a function that returns the value multiplied by 50 and increased by 6. If t
 '''
 
 def problem(a):
-    if type(a) == int:
-        return a * 50 + 6
-    else:
+    if type(a) == str:
         return "Error"
-
+    else:
+        return a * 50 + 6
 '''
 If there is an error function doesn't reach the end. It will throw an error if the tests don't match.
 '''
