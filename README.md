@@ -1,4 +1,4 @@
-# Codewar challenges from Python language
+# Codewar challenges using Python language
 
 ### Difficulty
 #### 8kyu
