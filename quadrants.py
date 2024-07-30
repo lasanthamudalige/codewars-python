@@ -34,7 +34,7 @@ def quadrant(x, y):
         return 4
 
 '''
-If there is an error function doesn't reach the end. It will show an error if the tests don't match.
+If there is an error function doesn't reach the end. It will throw an error if the tests don't match.
 '''
 def test_quadrant():
     assert quadrant(1, 2) == 1 #Should be 1

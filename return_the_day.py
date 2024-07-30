@@ -35,7 +35,7 @@ def whatday(num):
         return "Wrong, please enter a number between 1 and 7"
 
 '''
-If there is an error function doesn't reach the end. It will show an error if the tests don't match.
+If there is an error function doesn't reach the end. It will throw an error if the tests don't match.
 '''
 def test_whatday():
     assert whatday(1) == "Sunday"
