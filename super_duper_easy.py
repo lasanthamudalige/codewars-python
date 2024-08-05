@@ -15,7 +15,7 @@ If there is an error function doesn't reach the end. It will throw an error if t
 def test_problem():
     assert problem("hello") == "Error"
     assert problem(1) == 56
-    print("All tests passed")
+    print("All tests passed".)
 
 
 test_problem()
