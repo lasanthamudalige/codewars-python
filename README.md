@@ -12,3 +12,5 @@
 8. [Short Long Short](https://github.com/lasanthamudalige/codewars-python/blob/main/traffic_light.py)
 9. [Parse nice int from char problem](https://github.com/lasanthamudalige/codewars-python/blob/main/parse_int_from_char_problem.py)
 10. [DNA to RNA Conversion](https://github.com/lasanthamudalige/codewars-python/blob/main/dna_to_rna_conversion.py)
+
+#### 7kyu
