@@ -14,7 +14,7 @@
 10. [DNA to RNA Conversion](https://github.com/lasanthamudalige/codewars-python/blob/main/dna_to_rna_conversion.py)
 
 #### 7kyu
-1. [Find the missing number]
-2. [Friend or foe]
-3. [Highest and lowest]
+1. [Find the missing number](https://github.com/lasanthamudalige/codewars-python/blob/main/find_the_missing_number.py)
+2. [Friend or foe](https://github.com/lasanthamudalige/codewars-python/blob/main/friend_or_foe.py)
+3. [Highest and lowest](https://github.com/lasanthamudalige/codewars-python/blob/main/highest_and_lowest.py)
 
