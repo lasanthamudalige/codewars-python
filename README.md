@@ -15,3 +15,6 @@
 
 #### 7kyu
 1. [Find the missing number]
+2. [Friend or foe]
+3. [Highest and lowest]
+
